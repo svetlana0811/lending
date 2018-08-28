@@ -1,0 +1,70 @@
+@media screen and (max-width: 1024px) {
+	.sectionDesc .number {
+	    font-size: 150px;
+	}
+	.sectionDesc .text> div {
+	    bottom: 34px;
+	    font-size: 30px;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+	header {
+		height: 560px;
+		background-size: cover;
+	}
+	.sectionDesc .number {
+	    font-size: 120px;
+	}
+	.square {
+		width: 10px;
+		height: 10px;
+	}
+	.sectionDesc .text> div{
+	    bottom: 26px;
+    	font-size: 20px;
+	}
+	#climb .sectionDesc .descriptHistory p {
+		bottom: 26px;
+	}
+	.longLogo .headerLinks {
+	    flex-wrap: wrap;
+	    justify-content: center;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.sectionDesc .number {
+	    font-size: 90px;
+	}
+	.sectionDesc .text> div{
+	    bottom: 20px;
+    	font-size: 11px;
+	}
+	#climb .sectionDesc .descriptHistory p {
+		bottom: 20px;
+		font-size: 10px;
+	}
+	.container {
+		width: 90%;
+	}
+	footer .container p {
+	    padding-top: 5px;
+	    padding-left: 10px;
+	    font-size: 15px;
+	}
+	header {
+    	height: 300px;
+	}
+	.navItems li.history {
+	    margin-right: 18px;
+	}
+	.navItems {
+	    padding: 10px 10px;
+	}
+	footer .container{
+		display:block;
+		text-align: center;
+	}
+}

@@ -1,0 +1,246 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    font-family: sans-serif;
+}
+.text p {
+    font-family: bebas
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+@font-face {
+    font-family: latoItalic;
+    src: url(../fonts/Lato-BlackItalic.ttf);
+}
+@font-face {
+    font-family: bebas;
+    src: url(../fonts/BEBAS.ttf);
+}
+
+.container {
+    width: 70%;
+    max-width: 890px;
+    margin: 0 auto;
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.logo img {
+    width: 100%;
+    border-radius: 50%;
+}
+.headerLinks {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+header {
+    background: url(../img/mountain.png) no-repeat;
+    height: 660px;
+    position: relative;
+    background-position: center;
+}
+.navItems {
+    padding: 10px 0;
+}
+.navItems li{
+    color: white;
+    padding: 0 5px 4px 0;
+    border-bottom: 1px solid;
+    font-family: latoItalic;
+    text-transform: uppercase;
+}
+.navItems li.history {
+    margin-right: 48px;
+}
+.headerText {
+         font-family: bebas;
+    line-height: 1.079;
+    text-align: left;
+    width: max-content;
+    font-size: 90px;
+    margin: 50px auto 0;
+    padding: 100px 0;
+}
+
+header .container {
+    padding-bottom: 150px;
+}
+
+.square {
+    height: 20px;
+    width: 20px;
+    background-color: #697A96;
+}
+.longLogo .navItems li {
+    color: #697A96;
+}
+
+
+#history {
+    background: url(../img/peak.jpg) no-repeat;
+    height: 660px;
+    position: relative;
+    background-position: center;
+}
+
+.backgroundOpacity {
+    height: 100%;
+    background: rgba(79,82,86,0.2);
+}
+
+.sectionDesc> div {
+    display: flex;
+}
+.sectionDesc .number {
+    font-size: 230px;
+    color: #697A96;
+}
+
+.sectionDesc .text {
+position: relative;
+}
+.sectionDesc .text> div {
+    position: absolute;
+        bottom: 51px;
+    font-size: 40px;
+    color: #404F6C;
+}
+.sectionDesc .text> div .text{
+    text-transform:uppercase;
+
+}
+
+.descriptHistory {
+    color:  #404F6C;
+    font-size: 16px;
+    text-transform: 
+}
+
+.backgroundOpacityDarc {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 30px 0;
+    background: rgba(64,79,108,0.5);
+}
+
+#climb .sectionDesc {
+    display: flex;
+}
+#climb .sectionDesc .bigNum {
+width: 50%;
+}
+
+#climb .sectionDesc .descriptHistory {
+    width: 50%;
+    position: relative
+}
+
+#climb .sectionDesc .descriptHistory p{
+    position: absolute;
+    bottom: 51px;
+
+}
+.tableDate {
+    background: url(../img/photo141702142391407.png) no-repeat;
+    height: 540px;
+    position: relative;
+    background-position: center;
+}
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+.owl-nav button.owl-prev {
+  left: 0;
+}
+.owl-nav button.owl-next {
+  right: 0;
+}
+.owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 3px;
+}
+.owl-dots button.owl-dot.active {
+  background-color: #000;
+}
+.owl-dots button.owl-dot:focus {
+  outline: none;
+}
+
+.navLinks {
+    background: rgba(64,79,108, 0.8);
+    padding: 10px 0;
+}
+.navLinks ul.navItems  {
+    padding: 0;
+}
+.tableDate h1 {
+    text-transform: uppercase;
+}
+.tableDate>div>div{
+    background: rgba(255,255,255,0.5);
+    width: max-content;
+    height: max-content;
+    padding: 15px; 
+}
+.tableDate> .container{
+    padding-top: 50px;
+}
+.dataTable >div{
+    display: flex
+}
+.dataTable>div>div {
+    margin: 10px 20px 10px 0;
+    width: 50%;
+    font-size: 13px;
+}
+footer{
+    background: rgb(64,79,108);
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 5px;
+}
+
+footer .container p{
+        opacity: 0.8;
+        padding-top: 16px;
+}
